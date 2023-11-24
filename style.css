@@ -1,0 +1,53 @@
+body {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  background-image: url("https://scc10.com.br/wp-content/uploads/2023/02/filmes-super-herois-1.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 20px;
+  position: absolute;
+  top: 40px;
+  right: 40px;
+}
+
+body > img {
+  margin: 0 10px;
+}
+
+img {
+  max-height: 250px;
+}
+
+.capaFilme {
+  width: 200px; /* Largura padrão */
+  transition: transform 0.3s ease; /* Transição suave ao passar o mouse */
+}
+
+.destacar {
+  border: 3px solid yellow; /* Adiciona uma borda amarela */
+  transform: scale(1.05); /* Aumenta um pouco o tamanho ao destacar */
+}

@@ -1,1 +1,1 @@
-# AluraFlix---Projeto
+# AluraFlix-Projeto

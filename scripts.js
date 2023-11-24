@@ -35,4 +35,3 @@ imagens.forEach(imagem => {
   imagem.addEventListener('mouseout', () => {
     imagem.classList.remove('destacar'); // Remove a classe 'destacar' ao tirar o mouse
   });
-});
